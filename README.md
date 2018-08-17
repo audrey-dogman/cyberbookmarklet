@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+drag this into your bookmarks bar
 
-You can use the [editor on GitHub](https://github.com/audrey-dogman/cyberbookmarklet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[cyberanswer](javascript:(function()%7Bvar%20answer%20%3D%20prompt(%22What's%20the%20CyberAIO%20answer%3F%22%2C%20%22%22)%3Bvar%20link%20%3D%20'https%3A%2F%2Fcybersole.io%2Fapi%2Fshop%2Fpurchase%3Fanswer%3D'%3Bvar%20full%20%3D%20link.concat(answer)%3Bvar%20xmlhttp%20%3D%20new%20XMLHttpRequest()%3Bxmlhttp.onreadystatechange%20%3D%20function()%20%7Bif%20(this.readyState%20%3D%3D%204%20%26%26%20this.status%20%3D%3D%20200)%20%7Bvar%20myObj%20%3D%20JSON.parse(this.responseText)%3Bif%20(myObj.url%20%3D%3D%20undefined)%20%7Balert(%22Wrong%20answer%22)%7D%20else%20%7Bwindow.location%20%3D%20myObj.url%3B%7D%7D%7D%3Bxmlhttp.open(%22GET%22%2C%20full%2C%20true)%3Bxmlhttp.send()%7D)())
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+make sure youre on cybersole.io/api/shop/purchase
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/audrey-dogman/cyberbookmarklet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+-dogman for amnotify
